@@ -1,0 +1,8 @@
+# Runtime dependencies for storage-supabase (from pyproject.toml)
+httpx[http2]>=0.26,<0.29
+deprecation>=2.1.0,<3.0.0
+pydantic==2.11.7
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
