@@ -32,3 +32,6 @@ async def file_upload():
   await storage_client.from_("bucket").upload("/folder/file.png", file_object, {"content-type": "image/png"})
 ```
 If no mime type is given, the default `text/plain` will be used.
+
+## Command production 
+uvicorn main:app --host 0.0.0.0 --port $PORT
